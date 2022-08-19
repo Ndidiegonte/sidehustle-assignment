@@ -1,0 +1,92 @@
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    /*background-color: red;*/
+    background-color: rgb(195, 122, 27);;
+  }
+.div1{
+    /*margin-top: 100px;*/
+    justify-content: center;
+    align-items: center;
+   width: 50vw; /*100percent*/
+   background-image:url(./images/bg-img.jpg);
+
+   background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.odin{ background-color: transparent; 
+    margin-top: 250px;
+    display: flex;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.odin img{
+    width: 120px;
+}
+
+.cite{
+   text-align:center;
+   margin: 600px 0 20px 0;
+   font-size: smaller;
+   font-weight: lighter;
+}
+.div2{
+    font-size: 12px;
+    line-height: 1.8;
+    font-weight: bold;
+    background-color:rgb(195, 122, 27);
+    border: 0;
+    align-items: center;
+    margin: auto ;
+    padding: 30px ;
+     /*900px*/
+    height: 900px;
+
+    
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+p #p1{
+    font-weight: bold;
+}
+
+.container :focus{
+    font-weight: bold;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+
+/*.focus :focus {
+    background-color: lightblue;
+  }*/
+    
+
+input:focus{
+    background-color:lightblue;
+    color: blue;
+    margin: none;
+    padding: 6px;
+    box-shadow: green;
+}
+
+.button{
+    background-color: grey;
+    padding:12px;
+    color: white;
+    margin: none;
+    border:none; /*border:20px*/
+    border-radius: 6px;
+}
